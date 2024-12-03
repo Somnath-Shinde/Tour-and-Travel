@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+   
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../goa.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+ul{
+	float: right;
+
+	list-style-type: none;
+	margin-top: 25px;
+
+}
+
+ul li{
+	display: inline-block;
+
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+
+
+}
+
+.main{
+	max-width: 1600px;
+	margin: auto;
+	
+}
+
+.title{
+	position: absolute;
+
+	
+
+
+	
+}
+
+.title h1{
+	color: #fff;
+	margin-bottom: 70px;
+	font-size: 45px;
+	letter-spacing: 2px;
+
+
+
+}
+
+.button{
+	width: 120px;
+	margin: 10px auto;
+
+	position: relative;
+	color: #ff61241f;
+	border-radius: 30px;
+	
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+
+}
+
+.main .fa{
+
+	margin-right: 8px;
+
+}
+.sub-menu-1{
+	display: none;
+
+}
+
+.main ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background color: #fff;
+	margin-top: 15px;
+	margin-left: -15px;
+
+
+}
+
+.main ul li:hover .sub-menu-1 li{
+	display: block;
+	margin: 10px;
+	margin-top: 2PX;
+}
+
+.sub-menu-2{
+	display: none;
+
+}
+
+.main ul li:hover .sub-menu-2{
+	display: block;
+	position: absolute;
+	background color: #fff;
+	margin-top: 15px;
+	margin-left: -15px;
+
+
+}
+
+.main ul li:hover .sub-menu-2 li{
+	display: block;
+	margin: 10px;
+	margin-top: 2PX;
+}
+
+.sub-menu-3{
+	display: none;
+
+}
+
+.main ul li:hover .sub-menu-3{
+	display: block;
+	position: absolute;
+	background color: #fff;
+	margin-top: 15px;
+	margin-left: -15px;
+
+
+}
+
+.main ul li:hover .sub-menu-3 li{
+	display: block;
+	margin: 10px;
+	margin-top: 2PX;
+}
+
+
+.slideshow{
+
+	
+	width: 700px;
+	height: 400px;
+	overflow: hidden; 
+}
+
+.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.navigation{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	display: flex;
+
+}
+
+.bar{
+
+	width: 50px;
+	height: 10px;
+	border: 2px solid #fff;
+	margin: 6px;
+	cursor: pointer;
+	
+}
+
